@@ -1,37 +1,15 @@
-.homeContainer{
+.home_container{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     column-gap: 20px;
-    
-
 }
 
 .sidebar{
     display: flex;
     flex: 2;
     height: 100vh;
-    border-right: 1px solid rgb(205, 203, 203);
+    border-right: 1px solid rgb(179, 179, 179);
+    background-color: rgb(240, 240, 240);
 }
 
-.notes{
-    padding-top: 20px;
-    height: calc(100vh - 30px);
-    overflow-x: auto;
-    flex: 6;
-    display: flex;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-
-.notes::-webkit-scrollbar {
-    height: 10px;
-    
-    background-color: rgb(223, 223, 223);
-    border-radius: 5px;
-}
-
-.notes::-webkit-scrollbar-thumb {
-    background: #969696;
-    border-radius: 5px;
-}

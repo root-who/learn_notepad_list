@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-const Card = ({data}) => {
+const Note = ({data}) => {
     return (
         <>
             <div className="cardContainer">
@@ -19,4 +19,4 @@ const Card = ({data}) => {
     );
 }
  
-export default Card;
+export default Note;
