@@ -8,7 +8,7 @@ const Note = ({data}) => {
                 <header className="header">
                     <h2 className="title">
                         {data.title}
-                        <span style={{backgroundColor: data.segment.color}} className="segment"/>
+                        <span style={{backgroundColor: data.segment.color}} className="segment_span"/>
                     </h2>
                 </header>
                 <div className="contant_wrapper">

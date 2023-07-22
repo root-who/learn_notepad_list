@@ -25,7 +25,7 @@
     font-family: 'Ubuntu', sans-serif;      
 }
 
-.segment{
+.segment_span{
     border: none;
     width: 10px;
     display: flex;
