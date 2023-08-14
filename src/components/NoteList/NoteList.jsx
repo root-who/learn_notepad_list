@@ -65,6 +65,7 @@ const NoteList = () => {
     ]
     const [segmentFilter, setSegmentFilter] = useState()
 
+    
     const getSegments = () => {
         const segmentGroups = {};
         list.forEach((value) => {
@@ -76,7 +77,7 @@ const NoteList = () => {
         });
         setSegmentFilter(Object.entries(segmentGroups))
     }
-
+    
     useEffect(()=>{
         getSegments()
     }, [])
